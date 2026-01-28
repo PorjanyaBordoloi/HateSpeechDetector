@@ -63,7 +63,7 @@ def get_prediction(text):
         "text": text,
         "label": label,
         "is_toxic": is_toxic,
-        "confidence_score": round(hate_prob * 100, 2)
+        "hate_probability": round(hate_prob * 100, 2)
     }
 
 # Test Block
